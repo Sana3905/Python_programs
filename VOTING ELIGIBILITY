@@ -1,0 +1,32 @@
+***VOTING ELIGIBILITY***
+     We should receive 3 inputs from the user
+     1st input: name of the person
+     2nd input: gender of the person
+     3rd input: age of the person
+     . criteria1: less than 18 yrs [irrespective of gender]
+     . criteria2: if some one more that 60 yrs [irrespective of gender]
+     . criteria3: if gender is male they have rights to vote only if they are above 30 yrs
+
+-> Program:
+name = str(input("Enter name: "))
+gender = str(input("Enter gender: "))
+age = int(input("Enter age: "))
+if age < 18:
+    print("Not eligible")
+
+elif age > 60:
+    print("Eligible")
+
+else:
+    if gender == "M" and age > 30:
+      print("Eligible")
+    else:
+      print("Not Eligible")
+
+
+
+
+~ Output: Enter name: Alex
+          Enter gender: M
+          Enter age: 36
+          Eligible
