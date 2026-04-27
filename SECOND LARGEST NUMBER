@@ -1,0 +1,34 @@
+ ***SECOND LARGEST NUMBER***
+     Get three unique numbers(int) from user
+         find second largest num:
+              ex: n1=10
+                  n2=23
+                  n3=12
+
+-> Program:
+a=int(input("Enter num1: "))
+b=int(input("Enter numb2: "))
+c=int(input("Enter numb3: "))
+if a>b and a>c:
+   if b>c:
+      print("Second largest ",b)
+   else: 
+      print("Second largest ",c)
+elif b>c and b>a:
+   if a>c:
+      print("Second largest ",a)
+   else: 
+      print("Second largest ",c)
+else:
+   if a>b:
+      print("Second largest ",a)
+   else:
+      print("Second largest ",b)
+
+
+
+
+~ Output: Enter num1: 10
+          Enter num2: 23
+          Enter num3: 12
+          Second largest 12
