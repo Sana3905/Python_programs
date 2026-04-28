@@ -1,0 +1,50 @@
+*** NUMBER GUESSING GAME ***
+
+import random
+p1=input("Enter player1: ")
+p2=input("Enter player2: ")
+s1=10
+s2=10
+d1=random.randint(1,10)
+d2=random.randint(1,10)
+print("__________PLAYER1 TURN__________")
+while(True):
+    g1=int(input("Enter ur guess: "))
+    s1=s1-1
+    if g1==d1:
+        break
+print("__________PLAYER2 TURN__________")
+while(True):
+    g2=int(input("Enter ur guess: "))
+    s2=s2-1
+    if g2==d2:
+        break
+print("__________SUMMARY__________")
+print("{}:{}".format(p1,s1))
+print("{}:{}".format(p2,s2))
+print("__________RESULT__________")
+if s1>s2:
+    print("Winner is ",p1)
+elif s2>s1:
+    print("Winner is ",p2)
+else:
+    print("TIE")
+
+
+
+
+~ Output: Enter player1: Tanuu
+          Enter player2: Sana
+     __________PLAYER1 TURN__________
+          Enter ur guess: 2
+          Enter ur guess: 5
+          Enter ur guess: 4
+     __________PLAYER2 TURN__________
+          Enter ur guess: 1
+          Enter ur guess: 7
+     __________SUMMARY__________
+          Tanuu:7
+          Sana:8
+     __________RESULT__________
+          Winner is  Sana
+ 
