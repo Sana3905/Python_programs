@@ -1,0 +1,18 @@
+*** CALCULATING SUM USING WHILE LOOP ***
+
+sum=0
+while(True):
+    a=int(input("Enter amount in Rs: "))
+    sum=sum+a
+    if a==0:
+        break
+print("Total is ",sum)
+
+
+
+
+~ Output:  Enter amount in Rs: 100
+           Enter amount in Rs: 250
+           Enter amount in Rs: 50
+           Enter amount in Rs: 0
+           Total is 400
