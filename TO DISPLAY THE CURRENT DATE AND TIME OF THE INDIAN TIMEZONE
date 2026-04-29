@@ -1,0 +1,11 @@
+*** TO DISPLAY THE CURRENT DATE AND TIME OF THE INDIAN TIMEZONE ***
+
+from datetime import datetime
+import pytz
+a=pytz.timezone("Asia/Kolkata")
+b=datetime.now(a)
+print(b)
+
+
+
+~ Output:  2026-04-29 12:45:30.123456+05:30             (The output changes according to the current date and time)
