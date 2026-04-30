@@ -1,0 +1,15 @@
+*** TO FIND GCD OF TWO NUMBERS ***
+
+a=int(input("Enter num1: ))
+b=int(input("Enter num2: ))
+while(b!=0):
+    rem=a%b
+    a=b
+    b=rem
+print("GCD: ",a)
+
+
+
+~ Output:  Enter num1: 60
+           Enter num2: 25
+           GCD: 5
