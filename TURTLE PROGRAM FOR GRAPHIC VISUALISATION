@@ -1,0 +1,16 @@
+*** TURTLE PROGRAM FOR GRAPHIC VISUALISATION ***
+
+import turtle 
+t=turtle.Turtle()
+for i in range(20):
+    t.forward(100)
+    t.left(90)
+t.done(7)
+
+
+
+~ Output:   +----------+
+            |          |
+            |          |         (the arrow keeps rotating the square continuosly till the condition is satisfied)
+            |          |
+           >+----------+
