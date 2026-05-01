@@ -1,0 +1,17 @@
+*** STUDENT AVERAGE MARKS CALCULATION USING LISTS IN PYTHON ***
+
+names=["Raju","Pavi","Rose","jaanu","Abhi"]
+marks=[[20,30,40],[44,55,66],[77,88,99],[45,55,65],[90,78,98]]
+for i in range(5):
+    a=sum(marks[i])//3
+    print("{} . {} has scored {}".format(i+1,names[i],a))
+
+
+
+~ Output: 1 . Raju has scored 30
+          2 . Pavi has scored 55
+          3 . Rose has scored 88
+          4 . jaanu has scored 55
+          5 . Abhi has scored 88
+
+
