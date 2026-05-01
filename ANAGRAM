@@ -1,0 +1,18 @@
+*** ANAGRAM ***
+
+a=input("Enter any string: ")
+b=input("Enter string2: ")   
+a1="".join(i for i in a if i.isalnum())
+b1="".join(i for i in b if i.isalnum())
+a1=sorted(a)
+b1=sorted(b)
+if a2==b2:
+    print("ANAGRAM")
+else:
+    print("NOT ANAGRAM")
+
+
+
+~ Output:  Enter any string: listen
+           Enter string2: silent
+           ANAGRAM
