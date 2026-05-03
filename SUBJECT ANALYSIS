@@ -1,0 +1,26 @@
+   *** SUBJECT ANALYSIS ***
+
+Math = ['Tom','Jerry','Spike','Tyke']
+Political = ['Jerry','Spike','Butch','Nibbles']
+Science = ['Spike','Tyke','Nibbles','Quacker']
+m=set(Math)
+p=set(Political) 
+s=set(Science)
+#3 subjects 
+print(m&p&s)
+#2 subject
+a=(m&p)
+b=(p&s)
+c=(s&m)
+print(a)
+print(b)
+print(c)
+print(a|b|c)
+
+
+
+~ Output:  {'Spike'}
+           {'Jerry', 'Spike'}
+           {'Nibbles', 'Spike'}
+           {'Tyke', 'Spike'}
+           {'Nibbles', 'Jerry', 'Spike', 'Tyke'}
