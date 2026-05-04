@@ -1,0 +1,15 @@
+*** TO CREATE A QR CODE ***
+
+import qrcode
+qr=qrcode.QRCode()                                         [runs in vscode]
+a="Sana is rocking"
+qr.add_data(a)
+qr.make(fit=True)
+res=qr.make_image(fill_color="pink",back_color="white")
+res.save("SANA.png")
+print("Created sana")
+
+
+
+~ Output: [A qr code is gnerated in the filepath we gave]
+
