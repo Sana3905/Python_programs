@@ -14,5 +14,7 @@ r.display()
 r1 = rect(90,100)
 r1.display()
 
+
+
 ~ Output:  area is 600
            area is 9000
