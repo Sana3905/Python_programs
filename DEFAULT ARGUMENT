@@ -1,0 +1,12 @@
+*** DEFAULT ARGUMENT ***
+
+def abc(name="Guest"):
+    print("good morning: ",name)
+abc("Sana")
+abc()
+
+
+
+
+~ Output:  good morning:  Sana
+           good morning:  Guest
