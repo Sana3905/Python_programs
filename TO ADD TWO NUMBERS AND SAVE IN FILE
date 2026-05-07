@@ -1,0 +1,18 @@
+*** TO ADD TWO NUMBERS AND SAVE IN FILE ***
+
+a=open("Sana.txt",'a')
+n1=int(input("Enter any num: "))
+n2=int(input("Enter any num: "))
+sum=n1+n2
+a.write(str(n1))
+a.write(str(n2))
+a.write(str(sum))
+print("OK")
+
+
+
+
+~ Output:  Enter any num: 10
+           Enter any num: 20
+           OK
+           102030
