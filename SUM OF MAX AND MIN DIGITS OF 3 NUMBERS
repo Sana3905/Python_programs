@@ -1,0 +1,22 @@
+*** SUM OF MAX AND MIN DIGITS OF 3 NUMBERS ***
+
+a = int(input("Enter num1: "))
+b = int(input("Enter num2: "))
+c = int(input("Enter num3: "))
+list1 = [int(i) for i in str(a)]
+list2 = [int(i) for i in str(b)]
+list3 = [int(i) for i in str(c)]
+sum1 = max(list1)+max(list2)+max(list3)
+sum2 = min(list1)+min(list2)+min(list3)
+print(sum1)
+print(sum2)
+print("sum of sum1 and sum2= ",sum1+sum2)
+
+
+
+~ Output:  Enter num1: 1234
+           Enter num2: 5487
+           Enter num3: 3890
+           21
+           5
+           sum of sum1 and sum2=  26
