@@ -1,0 +1,24 @@
+*** TO STORE STUDENT DETAILS IN A FILE ***
+
+from tabulate import tabulate
+title=["Name","Age","Department"]
+data=[["Sana",20,"CSM"],
+      ["Diya",21,"CSM"],
+      ["Tanuu",22,"CSE"],
+      ["Cleo",23,"CIVIL"]]
+res=tabulate(data,headers=title,tablefmt="pretty")
+with open("Sana.txt",'w') as file:
+    file.write(res)
+
+
+
+
+~ Output:  +-------+-----+------------+
+           | Name  | Age | Department |
+           +-------+-----+------------+
+           | Sana  | 20  |    CSM     |
+           | Diya  | 21  |    CSM     |
+           | Tanuu | 22  |    CSE     |
+           | Cleo  | 23  |   CIVIL    |
+           +-------+-----+------------+
+
