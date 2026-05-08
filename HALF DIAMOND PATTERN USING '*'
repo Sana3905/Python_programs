@@ -1,4 +1,4 @@
-*** Half Diamond Pattern using '*' ***
+*** HALF DIAMOND PATTERN USING '*' ***
 
 a = int(input("Enter any num: "))
 res=(a+1)//2
