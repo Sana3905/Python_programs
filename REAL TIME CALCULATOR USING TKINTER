@@ -4,7 +4,7 @@ from tkinter import *
 a=Tk()
 a.geometry("400x500")
 a.title("CALCULATOR")
-x=Entry(a,width=70,text=('Ariel',60))
+x=Entry(a,width=70,text=('Ariel',60))                    [should be done in VScode]
 x.grid(column=0,row=0,columnspan=6)
 def click(num):
     curr=x.get()
