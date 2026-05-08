@@ -1,4 +1,4 @@
-*** 'M' pattern using a 2-D list ***
+*** 'M' PATTERN USING A 2-D LIST ***
 
 a=[[" " for i in range(11)] for j in range (11)]
 for i in range(11):
